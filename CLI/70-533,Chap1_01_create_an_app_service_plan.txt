@@ -1,0 +1,25 @@
+#!/bin/bash
+# Exam Ref 70-533
+# Implementing Microsoft Azure Infrastructure Solutions
+# create an app service plan (page 6)
+
+# Define prooerties for the app service plan
+resourceGrouoName = "contoso"
+appServicePlanName = "contoso"
+location = "westus"
+sku = "P1"
+
+# create a new resource group
+az group create --location $location --name $resourceGroupName
+
+# Create a new app service plan
+az appservice plan create --resource-group$resourceGroupName \ 
+    --name $appServicePlanName --location $location --sku $sku
+
+
+---------
+
+
+Create a web app (page 8)
+
+#!/bin/bash
