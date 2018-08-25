@@ -11,7 +11,7 @@
 
 
 
-Use the New-AzureRmWebApp cmdlet to create a new web app.
+# Use the New-AzureRmWebApp cmdlet to create a new web app.
 # Define properties for the app service plan
 $resourceGroupName = "contoso"
 $appServicePlanName = "contoso"
